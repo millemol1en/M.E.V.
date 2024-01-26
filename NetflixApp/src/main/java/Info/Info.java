@@ -14,10 +14,10 @@ import java.util.stream.Stream;
 public class Info {
     ArrayList<Content> contentList;
     ArrayList<File> imageFileList;
-    static final String movieDataFile = "src/Data/film.txt";
-    static final String seriesDataFile = "src/Data/serier.txt";
-    static final String moviePosterDirectory = "src/Data/filmplakater";
-    static final String seriesPosterDirectory = "src/Data/serieforsider";
+    static final String movieDataFile = "M.E.V./NetflixApp/src/Data/film.txt";
+    static final String seriesDataFile = "M.E.V./NetflixApp/src/Data/serier.txt";
+    static final String moviePosterDirectory = "M.E.V./NetflixApp/src/Data/filmplakater";
+    static final String seriesPosterDirectory = "M.E.V./NetflixApp/src/Data/serieforsider";
 
     File movieDirectory;    File[] movieFiles;
     File seriesDirectory;   File[] seriesFiles;
